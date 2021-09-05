@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Math Quiz</title>
+    <link rel="stylesheet" href="./quiz.css">
+</head>
+
+<body>
+    <main>
+        <h1>It's a Math Quiz</h1>
+        <p>Question <span id="current-question-no"></span>/<span id="total-questions"></span></p>
+        <form id="question-form">
+            <p id="question">Questions Appear here</p>
+            <div id="options">
+
+            </div>
+            <button id="prevBtn">Previous</button>
+            <button type="reset" id="clearBtn">Clear Selection</button>
+            <button type="submit" id="submitBtn">Submit</button>
+            <button id="nextBtn">Next</button>
+            <br>
+            <button id="submitExamBtn">Submit Exam</button>
+        </form>
+
+        <section id="review-section">
+            <h1>Review Section</h1>
+            <h2>Question:Your Answer</h2>
+            <ul id="review-list">
+
+            </ul>
+        </section>
+    </main>
+    <script src="./quiz.js"></script>
+</body>
+
+</html>
